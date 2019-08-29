@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>sample</name>
+   <name>BranchSelect</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>a1f7207a-c4ce-4b21-83ed-05e85972f240</testCaseGuid>
+   <testCaseGuid>aadb6d9c-210c-4caa-a2ff-4a1b6776cab0</testCaseGuid>
 </TestCaseEntity>
