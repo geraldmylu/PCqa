@@ -30,5 +30,5 @@ WebUI.delay(2)
 
 WebUI.click(findTestObject('Page_Sign in to your account/sign_in_button'))
 
-WebUI.click(findTestObject('Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9'))
+WebUI.click(findTestObject('Page_Sign in to your account/input_concat(Don  t show this again)_idSIButton9'), FailureHandling.CONTINUE_ON_FAILURE)
 
