@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Sign in_idSIButton9</name>
+   <name>sign_in_button</name>
    <tag></tag>
-   <elementGuidId>f8955847-a683-4b23-bbc7-4ca4bb802b43</elementGuidId>
+   <elementGuidId>c4921fc3-4f78-48de-9bf4-45d6bbac1d65</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>/html//input[@id='idSIButton9']</value>
+         <value>//input[@id='idSIButton9']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -59,7 +59,7 @@
       <matchCondition>equals</matchCondition>
       <name>value</name>
       <type>Main</type>
-      <value>Next</value>
+      <value>Sign in</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,14 +80,21 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//form[@id='i0281']/div/div/div/div[3]/div/div/div/div[3]/div[2]/div/div/div/input</value>
+      <value>//form[@id='i0281']/div/div/div/div[3]/div/div[2]/div/div[3]/div[2]/div/div/div/input</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sign in'])[1]/following::input[3]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Forgot my password'])[1]/following::input[1]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please enter your password.'])[1]/following::input[2]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

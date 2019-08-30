@@ -6,11 +6,26 @@
    <elementGuidId>d6d50316-8a8f-4890-b8db-b33e60c83338</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>BASIC</key>
+         <value>//*[@type = 'submit' and @id = 'idSIButton9']</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
-         <value>//input[@id='idSIButton9']</value>
+         <value>/html//input[@id='idSIButton9']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>&lt;input type=&quot;submit&quot; id=&quot;idSIButton9&quot; class=&quot;btn btn-block btn-primary&quot; data-bind=&quot;
+            attr: primaryButtonAttributes,
+            value: primaryButtonText() || str['CT_PWD_STR_SignIn_Button_Next'],
+            hasFocus: focusOnPrimaryButton,
+            click: primaryButton_onClick,
+            enable: isPrimaryButtonEnabled,
+            visible: isPrimaryButtonVisible,
+            preventTabbing: primaryButtonPreventTabbing&quot; value=&quot;Sign in&quot;></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
